@@ -7,7 +7,6 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import CurrentUserContext from '../../contexts/current-user/current-user.context';
 import { CartContext } from '../../providers/cart/cart.provider';
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
 
 import './header.styles.scss';
 
@@ -18,7 +17,7 @@ const Header = () => {
   return (
   <div className='header'>
     <Link className='logo-container' to='/'>
-      <Logo className='logo' />
+      <img className='img-container' src='https://svgshare.com/i/ciK.svg' alt='logo'/>
     </Link>
     <div className='options'>
       <Link className='option' to='/shop'>

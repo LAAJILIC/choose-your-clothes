@@ -9,6 +9,16 @@
     height: 100%;
     width: 70px;
     padding: 25px;
+
+    .img-container {
+      width: auto;
+      height: 20%; 
+      top:0; 
+      left:0; 
+      position: absolute;
+      display: flex;
+      padding: 25px;
+      }
   }
 
   .options {
